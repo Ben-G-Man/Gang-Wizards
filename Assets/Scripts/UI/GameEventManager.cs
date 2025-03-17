@@ -22,9 +22,6 @@ public class GameEventManager : MonoBehaviour
         }
         instance = this;
 
-        p1KillCOunt = PersistenceManager.instance.LoadKillCount(1);
-        p2KillCOunt = PersistenceManager.instance.LoadKillCount(2);
-
         fadeController = GetComponent<FadeInAndOut>();
     }
 
